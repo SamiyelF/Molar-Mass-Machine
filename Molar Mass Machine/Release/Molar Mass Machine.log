@@ -1,0 +1,53 @@
+﻿  Molar Mass Machine.cpp
+D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(59,22): warning C4018: '<=': signed/unsigned mismatch
+D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(66,22): warning C4018: '<': signed/unsigned mismatch
+D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(80,24): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'Molar%20Mass%20Machine.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54):
+  the template instantiation context (the oldest one first) is
+  	D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(12,3):
+  	see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[2],double,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[2],
+              _Other2=double
+          ]
+  		D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(11,31):
+  		see the first reference to 'std::pair<const std::string,float>::pair' in 'void __cdecl `dynamic initializer for 'Table''(void)'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'Molar%20Mass%20Machine.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54):
+  the template instantiation context (the oldest one first) is
+  	D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(12,39):
+  	see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[3],int,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[3],
+              _Other2=int
+          ]
+  		D:\Test\Molar Mass Machine\Molar Mass Machine.cpp(11,31):
+  		see the first reference to 'std::pair<const std::string,float>::pair' in 'void __cdecl `dynamic initializer for 'Table''(void)'
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 456 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Molar Mass Machine.vcxproj -> D:\Test\Release\Molar Mass Machine.exe
